@@ -69,6 +69,32 @@ I use a TF-IDF to convert text to numerical features.
   **TF-IDF**
   
   ML is not working text data directry, we need to convert into vectors of number.
+  TF-IDF can calculate score the reletive importance of words.
+  
+  Simply TF-IDF = TF * IDF.
+  
+  
+  I will explane what is TF and IDF.
+    
+
+    **Term Frequency (TF)**
+    This is calculate how many times a word appeares in a document by total number of words in a document.
+    Tf is offen used in Text Mining.
+    Every documents are defferent length, it means long sentence has term appear many times.
+    We can normalize word frequence below formula.
+    
+    TF = (Number of times word t appears in a document / Total number of term in a document)
+    
+    **Inverse Document Frequency (IDF)**
+    IDF is a weight indicating how commonly a word is used. The more frequence word is lower score. In other words
+    this word is not important in a document.
+    IDF is offen used to boost the score of words that is unique in a document. We can find more influential word in  
+    document.
+    
+    IDF = log(Total number of documents / Number of documents containing the word t)
+    
+    
+    
   
   
   
