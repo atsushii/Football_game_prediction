@@ -21,7 +21,9 @@ This process I used a NLP technichs such as nltk and TF-IDF.
   The reason is if you don't convert to lowercase all of sentences, Tha model might treat a defferent word between capital
   letter and lowercase even if these words are same.
 
-  e.g. Hello and hello → hello and hello
+  e.g. 
+  
+  Hello and hello → hello and hello
   
 
   **Remove punctuation**
@@ -36,6 +38,7 @@ This process I used a NLP technichs such as nltk and TF-IDF.
   stop words from text,
 
   e.g.
+  
   I was not happy. → [happy]
 
   The result might be positive but actuall result is negative because sentence is "I was not happy"
@@ -49,7 +52,9 @@ This process I used a NLP technichs such as nltk and TF-IDF.
   Usualy suffix.
 
   e.g.
+
   playing → play
+
   plays → play
   
   Without steeming, model can not understund play and plays are same word, but after stemming each words will be root word.
