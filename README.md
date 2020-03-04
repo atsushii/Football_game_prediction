@@ -79,23 +79,26 @@ I use a TF-IDF to convert text to numerical features.
   I will explane what is TF and IDF.
     
 
-    **Term Frequency (TF)**
-    This is calculate how many times a word appeares in a document by total number of words in a document.
-    Tf is offen used in Text Mining.
-    Every documents are defferent length, it means long sentence has term appear many times.
-    We can normalize word frequence below formula.
-    
-    TF = (Number of times word t appears in a document / Total number of term in a document)
-    
-    **Inverse Document Frequency (IDF)**
-    IDF is a weight indicating how commonly a word is used. The more frequence word is lower score. In other words
-    this word is not important in a document.
-    IDF is offen used to boost the score of words that is unique in a document. We can find more influential word in  
-    document.
-    
-    IDF = log(Total number of documents / Number of documents containing the word t)
-    
-    ![Untitled (17)](https://user-images.githubusercontent.com/25543738/75927772-dd6c1080-5e21-11ea-82c0-81a5b631051c.png)
+   **Term Frequency (TF)**
+   This is calculate how many times a word appeares in a document by total number of words in a document.
+   Tf is offen used in Text Mining.
+   Every documents are defferent length, it means long sentence has term appear many times.
+   We can normalize word frequence below formula.
+
+   TF = (Number of times word t appears in a document / Total number of term in a document)
+
+   ![Untitled (16)](https://user-images.githubusercontent.com/25543738/75927820-f70d5800-5e21-11ea-8004-d103269ad4b7.png)
+
+
+   **Inverse Document Frequency (IDF)**
+   IDF is a weight indicating how commonly a word is used. The more frequence word is lower score. In other words
+   this word is not important in a document.
+   IDF is offen used to boost the score of words that is unique in a document. We can find more influential word in  
+   document.
+
+   IDF = log(Total number of documents / Number of documents containing the word t)
+
+   ![Untitled (17)](https://user-images.githubusercontent.com/25543738/75927772-dd6c1080-5e21-11ea-82c0-81a5b631051c.png)
 
     
     
