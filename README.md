@@ -80,6 +80,7 @@ I use a TF-IDF to convert text to numerical features.
     
 
    **Term Frequency (TF)**
+   
    This is calculate how many times a word appeares in a document by total number of words in a document.
    Tf is offen used in Text Mining.
    Every documents are defferent length, it means long sentence has term appear many times.
@@ -90,7 +91,9 @@ I use a TF-IDF to convert text to numerical features.
    ![Untitled (16)](https://user-images.githubusercontent.com/25543738/75927820-f70d5800-5e21-11ea-8004-d103269ad4b7.png)
 
 
+   
    **Inverse Document Frequency (IDF)**
+   
    IDF is a weight indicating how commonly a word is used. The more frequence word is lower score. In other words
    this word is not important in a document.
    IDF is offen used to boost the score of words that is unique in a document. We can find more influential word in  
