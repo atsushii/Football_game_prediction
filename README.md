@@ -73,6 +73,8 @@ I use a TF-IDF to convert text to numerical features.
   
   Simply TF-IDF = TF * IDF.
   
+  ![Untitled (18)](https://user-images.githubusercontent.com/25543738/75927724-c3cac900-5e21-11ea-8008-8b8a611aff58.png)
+
   
   I will explane what is TF and IDF.
     
