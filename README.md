@@ -143,6 +143,24 @@ I use different algorithmesn to train model.
  ![Untitled (21)](https://user-images.githubusercontent.com/25543738/75947154-453b4f00-5e54-11ea-9fa2-d22b18a571c7.png)
  
  
+ # XGBoost
+ 
+ XGBoost is decision-tree-based ensemble algorithm, using gradient boosting framework.
+ It is focus on model performance and computional speed.
+ XGBoost can be used to solve regression, classification and ranking problem.
+ 
+ # Neural network
+ 
+ Neural network has multi layer network of neurons.
+ Usually having input layer, hidden layer and output layer.
+ we can add n hidden layers into network.
+ 
+ I use a simple neural network like below.
+ 
+ 
+ 
+ 
+ 
 
  
  
