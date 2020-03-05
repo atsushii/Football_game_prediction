@@ -116,6 +116,8 @@ I use different algorithmesn to train model.
  I convert categorical value into numerical
  y∈{0,1} 0 is negative class, 1 is positive class. 
  
+ ![Untitled (19)](https://user-images.githubusercontent.com/25543738/75945598-9268f200-5e4f-11ea-9ea5-ab89f226a414.png)
+
  
  
  
