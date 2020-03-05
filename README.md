@@ -157,6 +157,9 @@ I use different algorithmesn to train model.
  
  I use a simple neural network like below.
  
+
+
+ 
  
  
  
