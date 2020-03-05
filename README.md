@@ -102,7 +102,24 @@ I use a TF-IDF to convert text to numerical features.
    IDF = log(Total number of documents / Number of documents containing the word t)
 
    ![Untitled (17)](https://user-images.githubusercontent.com/25543738/75927772-dd6c1080-5e21-11ea-82c0-81a5b631051c.png)
+   
+   
+# Machine Learning Algorithme
 
+I use different algorithmesn to train model.
+
+ **Logistic Regression**
+ 
+ Logistic Regression is used to solve classification problem.
+ In this project, target value is categorical.
+ 
+ I convert categorical value into numerical
+ y∈{0,1} 0 is negative class, 1 is positive class. 
+ 
+ 
+ 
+ 
+ 
     
     
     
