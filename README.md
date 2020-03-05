@@ -27,6 +27,8 @@ This process I used a NLP technichs such as nltk and TF-IDF.
   
 
   **Remove punctuation**
+  
+  
   it doesn't affect to predict spam SMS without punctuation. But some NLP tasks need to use a puncutuation such as machine 
   translation.
   I remove a punctuaiton but number of punctuation of each sentence is going to be feature.
@@ -34,6 +36,8 @@ This process I used a NLP technichs such as nltk and TF-IDF.
   
 
   **Remove stop word**
+  
+  
   I remove a stop word but it depends on detaset. For instance your goal is sentiment analysis from text then if you remove   
   stop words from text,
 
@@ -48,6 +52,8 @@ This process I used a NLP technichs such as nltk and TF-IDF.
   
 
   **Stemming**
+  
+  
   Stemmig is a process that words are reduced to root by removing unnessesary charactores.
   Usualy suffix.
 
@@ -78,7 +84,7 @@ I use a TF-IDF to convert text to numerical features.
   
   I will explane what is TF and IDF.
     
-
+   
    **Term Frequency (TF)**
    
    This is calculate how many times a word appeares in a document by total number of words in a document.
@@ -87,6 +93,7 @@ I use a TF-IDF to convert text to numerical features.
    We can normalize word frequence below formula.
 
    TF = (Number of times word t appears in a document / Total number of term in a document)
+
 
    ![Untitled (16)](https://user-images.githubusercontent.com/25543738/75927820-f70d5800-5e21-11ea-8004-d103269ad4b7.png)
 
@@ -100,6 +107,7 @@ I use a TF-IDF to convert text to numerical features.
    document.
 
    IDF = log(Total number of documents / Number of documents containing the word t)
+
 
    ![Untitled (17)](https://user-images.githubusercontent.com/25543738/75927772-dd6c1080-5e21-11ea-82c0-81a5b631051c.png)
    
@@ -118,12 +126,14 @@ I use different algorithmesn to train model.
  I convert categorical value into numerical
  y∈{0,1} 0 is negative class, 1 is positive class. 
  
+
  ![Untitled (19)](https://user-images.githubusercontent.com/25543738/75945598-9268f200-5e4f-11ea-9ea5-ab89f226a414.png)
  
  Some people already notice that logistic regression uses sigmoid function.
  
  ![Untitled (20)](https://user-images.githubusercontent.com/25543738/75945654-b298b100-5e4f-11ea-8e60-87199c39b0be.png)
   
+
   Look at above, g(z) is mapped any real number to (0, 1) making it easy to transform arbitrary-valued function into a 
   function 
   better suited for classification.
