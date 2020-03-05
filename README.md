@@ -155,7 +155,33 @@ I use different algorithmesn to train model.
  Usually having input layer, hidden layer and output layer.
  we can add n hidden layers into network.
  
- I use a simple neural network like below.
+ ![Untitled (23)](https://user-images.githubusercontent.com/25543738/75950624-918b8c80-5e5e-11ea-894d-32871a8f69c2.png)
+ 
+ Input layer is connected with hidden layer, each connection has numerical value as weight.
+ Then input are maultiplied to corresponding the weights. Then sum is into neuron in the hidden layer, each neuron has 
+ numerical value called bias. Then this value passing to the activation threshold function called activation function.
+ I use sigmoid which is already explained.
+ Result of activation function determines if neuron will get activated or not.
+ activated neurons are moving to output layer.
+ This methods data is propagated through the network called forward propagation.
+ 
+ Output value is basiclly probability, but if network has made wrong prediction.
+ During training, predict output compared to actuall value, then calculate a error(actual value - predict output)
+ Magunitude of error indicates how wrong we are. Then give a indication of direction and magunitude of change to reduce the  
+ error. theseb information transferred backward through the network this is called back propagation.
+ Based on this information weights are adjusted.
+ forward propagation and back propagation iteratively performed during training.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
  
 
 
