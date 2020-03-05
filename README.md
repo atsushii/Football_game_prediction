@@ -117,6 +117,17 @@ I use different algorithmesn to train model.
  y∈{0,1} 0 is negative class, 1 is positive class. 
  
  ![Untitled (19)](https://user-images.githubusercontent.com/25543738/75945598-9268f200-5e4f-11ea-9ea5-ab89f226a414.png)
+ 
+ Some people already notice that logistic regression uses sigmoid function.
+ 
+ ![Untitled (20)](https://user-images.githubusercontent.com/25543738/75945654-b298b100-5e4f-11ea-8e60-87199c39b0be.png)
+ 
+ Look at above, g(z) is mapped any real number to (0, 1) making it easy to transform arbitrary-valued function into a function 
+ better suited for classification.
+ 
+ 
+ 
+ 
 
  
  
