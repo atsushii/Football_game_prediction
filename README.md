@@ -194,16 +194,48 @@ I use different algorithmesn to train model.
    
    
    Accuracy = (TP + TN) / (TP + TN + FP + FN)
+   → all of the result, how much we predicted correctly, 
     
    Precision = TP / (TP + FP)
+   → measure of the accuracy of your model, how many are actual positiv3
    
    Recall = TP / (TP + FN)
+   → how much we predict correctly in actual result it should be high.
+   
+   F-measure = 2 * Recall * Precision /  (Reacall + Precision)
+   →  F-measure is used when the False Negatives and False Positives are crucial
+   
    
    ![Untitled (24)](https://user-images.githubusercontent.com/25543738/76054183-afbbc000-5f24-11ea-9c88-74d6a6fd7151.png)
    
    In this project, I predict a spam SMS.
    Let's say 100 people recieve a SMS. In actual 40 people got a spam sms but you predict 15 people recieve a spam SMS and 
    3 of them don't recieve a spam SMS. it confusing, I will put result into matrix.
+   
+   
+   ![Untitled (25)](https://user-images.githubusercontent.com/25543738/76057402-4d67bd00-5f2e-11ea-9e9f-dd5d8c3e8e47.png)
+   
+   True Positive 12 (you have a positive case correct prediction)
+   
+   True Negative 57 (you have a negativr case correct prediction)
+   
+   False Positive 3 (you predicted 3 people recieve spam SMS but actual they don't)
+   
+   True negative 28 (you predicted 28 people don't recieve spam SMS but actual they recieve)
+   
+   **AUC-ROC Curve**
+   
+   This method is also useful for evalution the model.
+   
+   ROC is ratio of True positive(TPR) and False positive(FRP)
+   it shows how much model is capable of distingish between class.
+   Higher AUS is better model.
+   
+   High performance model has AUC near to the 1, A poor model has AUC near to the 0
+   
+   
+   
+
    
    
    
