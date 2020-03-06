@@ -178,7 +178,7 @@ I use different algorithmesn to train model.
  Output value is basiclly probability, but if network has made wrong prediction.
  During training, predict output compared to actuall value, then calculate a error(actual value - predict output)
  Magunitude of error indicates how wrong we are. Then give a indication of direction and magunitude of change to reduce the  
- error. theseb information transferred backward through the network this is called back propagation.
+ error. these information transferred backward through the network this is called back propagation.
  Based on this information weights are adjusted.
  forward propagation and back propagation iteratively performed during training.
  
