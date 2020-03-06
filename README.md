@@ -182,6 +182,28 @@ I use different algorithmesn to train model.
  Based on this information weights are adjusted.
  forward propagation and back propagation iteratively performed during training.
  
+ # Model Evaluation
+ 
+ After train the model, We need to evaluate how model works well.
+ It is quite important task in the real world.
+ There are few model evaluation techniques.
+ 
+   **Confusion Matrix**
+   
+   It is a matrix representation of the results of any binary testing.
+   
+   
+   Accuracy = (TP + TN) / (TP + TN + FP + FN)
+    
+   Precision = TP / (TP + FP)
+   
+   Recall = TP / (TP + FN)
+   
+   
+   
+   
+   
+   
  
  
  
