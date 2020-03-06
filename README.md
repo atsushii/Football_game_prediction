@@ -199,6 +199,16 @@ I use different algorithmesn to train model.
    
    Recall = TP / (TP + FN)
    
+   ![Untitled (24)](https://user-images.githubusercontent.com/25543738/76054183-afbbc000-5f24-11ea-9c88-74d6a6fd7151.png)
+   
+   In this project, I predict a spam SMS.
+   Let's say 100 people recieve a SMS. In actual 40 people got a spam sms but you predict 15 people recieve a spam SMS and 
+   3 of them don't recieve a spam SMS. it confusing, I will put result into matrix.
+   
+   
+   
+
+   
    
    
    
