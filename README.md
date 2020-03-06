@@ -194,15 +194,19 @@ I use different algorithmesn to train model.
    
    
    Accuracy = (TP + TN) / (TP + TN + FP + FN)
+
    → all of the result, how much we predicted correctly, 
     
    Precision = TP / (TP + FP)
+   
    → measure of the accuracy of your model, how many are actual positiv3
    
    Recall = TP / (TP + FN)
+   
    → how much we predict correctly in actual result it should be high.
    
    F-measure = 2 * Recall * Precision /  (Reacall + Precision)
+   
    →  F-measure is used when the False Negatives and False Positives are crucial
    
    
@@ -230,6 +234,9 @@ I use different algorithmesn to train model.
    ROC is ratio of True positive(TPR) and False positive(FRP)
    it shows how much model is capable of distingish between class.
    Higher AUS is better model.
+   
+   ![Untitled (26)](https://user-images.githubusercontent.com/25543738/76061325-1eeedf80-5f38-11ea-83fa-b62a1d5dd93b.png)
+
    
    High performance model has AUC near to the 1, A poor model has AUC near to the 0
    
